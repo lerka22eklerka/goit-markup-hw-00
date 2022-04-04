@@ -1,0 +1,267 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #757575;
+    background-color: E5E5E5;
+}
+
+.page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #212121;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+.logo-span {
+    color: #2196F3;
+}
+.logo-studio {
+    color: white;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+
+.nav-studio, .nav-link, .nav-link, .nav-portfolio {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.nav-studio, .nav-portfolio {
+    color: #2196F3;
+}
+
+.contacts {
+    list-style: none;
+    display: flex;
+    
+}
+.contacts-link {
+    text-decoration: none;
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+.contacts-link:hover {
+    color: #2196F3;
+}
+
+.part-one {
+    background-color: #2F303A;
+    width: auto;
+}
+.one-text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    margin-left: 452px;
+    margin-right: 452px;
+    height: 120px;
+    width: 696px;
+    border-radius: nullpx;
+   
+}
+
+.one-button {
+    background-color: #2196F3;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.9;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 200px;
+    margin-left: 700px;
+    margin-right: 700px;
+
+}
+
+.part-two {
+    height: 101px;
+
+}
+
+.two-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.two-item {
+    width: 270px;
+    height: 101px;
+    left: 215px;
+    top: 774px;
+}
+
+.two-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.two-content {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.three-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.three-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.part-four {
+    background-color: rgba(245, 244, 250, 1);
+    width: auto;
+    
+}
+.four-item {
+    background-color: #FFFFFF;
+
+}
+
+.four-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.four-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.title-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.title-prof {
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.footer {
+    background-color: #2F303A;
+    width: auto;
+}
+
+.address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.address-list {
+    list-style: none;
+}
+.address-maps {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.address-link {
+    text-decoration: none;
+    color: #ffffff99;
+}
+.title-project {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.title-item {
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.project-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.button-list {
+    list-style: none;
+    display: flex;
+    justify-content: center
+}
+.project-button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.project-button:hover, .project-button:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
